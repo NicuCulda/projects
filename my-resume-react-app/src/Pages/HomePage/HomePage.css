@@ -36,13 +36,13 @@
     animation: move 10s ease-in-out infinite alternate;
 }
 @keyframes move {
-    33% { 
+    25% { 
         transform: translateY(-50px);
     }
-    66% {
+    50% {
         transform: translateY(-100px);
     }
-    100% {
+    75% {
         transform: translateY(-150px); 
     }
     }
