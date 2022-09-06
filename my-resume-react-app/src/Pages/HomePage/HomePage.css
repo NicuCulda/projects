@@ -1,4 +1,4 @@
-
+/* 
 .intro {
     display: flex;
     height: 100vh;  
@@ -75,4 +75,36 @@
     position: absolute;
     top: 0;
     right: 0;
+} */
+
+
+.header-wraper {
+    position: relative;
+    background: url("../../Images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-info h1 {
+    color: white;
+}
+
+.typed-text {
+    font-size: 2rem;
+    color: white;
+
 }
