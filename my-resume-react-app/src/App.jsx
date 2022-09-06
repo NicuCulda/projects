@@ -8,8 +8,8 @@ import ContactMe from './Pages/ContacMe/contactMe';
 import Education from './Pages/Education/Education';
 import Skills from './Pages/Skills/Skills'
 import Projects from './Pages/Projects/Projects';
-
-
+import "bootstrap/dist/js/bootstrap.bundle.min"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   
