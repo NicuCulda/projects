@@ -1,7 +1,7 @@
-import './Intro.css'
+import './Projects.css'
 
 
-const Intro = () => {
+const Projects = () => {
 
 
     return (
@@ -12,4 +12,4 @@ const Intro = () => {
 }
 
 
-export default Intro
+export default Projects

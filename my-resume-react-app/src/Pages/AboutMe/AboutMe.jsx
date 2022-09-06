@@ -1,11 +1,12 @@
 import './AboutMe.css'
+import React from 'react';
 
 const AboutMe = () => {
 
 
     return (
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam unde hic inventore eos voluptas ratione blanditiis necessitatibus, odit ut mollitia dolor beatae quia, molestiae iste assumenda quaerat dolorem sapiente?</p>
+            <h1>About Me</h1>
         </div>
     )
 }

@@ -1,12 +1,12 @@
 import './Education.css'
+import React from 'react'
 
 
 const Education = () => {
 
     return (
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, soluta nesciunt. Eos minus accusantium unde quaerat consequuntur porro culpa pariatur. Exercitationem iure dolorem necessitatibus dolore ad qui cum repellendus voluptates!</p>
-        
+            <h1>Education</h1>
         </div>
     )
 
