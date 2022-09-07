@@ -1,3 +1,6 @@
+.top-row {
+    padding-top: 80px;
+}
 .about {
     height: 100vh;
     display: flex;

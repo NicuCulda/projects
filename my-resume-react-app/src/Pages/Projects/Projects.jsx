@@ -2,14 +2,15 @@ import './Projects.css'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 
 const Projects = () => {
 
 
     return (
-        <container>
+        <Container>
             <Row xs={1} md={2} className="g-4" id='card-top'>
                 <Col>
                 <Card>
@@ -70,7 +71,7 @@ const Projects = () => {
                     </Card>
                     </Col>
             </Row>
-        </container>
+        </Container>
     )
 }
 
