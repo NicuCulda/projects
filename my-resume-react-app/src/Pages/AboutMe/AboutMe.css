@@ -1,3 +1,35 @@
 .about {
     height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right {
+    flex: 1;
+}
+
+
+.img-about {
+    height: 100px;
+    width: 150px;
+}
+.about-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.about-p {
+    font-size: small;
+    padding-top: 70px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
