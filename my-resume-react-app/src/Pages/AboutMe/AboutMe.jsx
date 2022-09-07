@@ -31,6 +31,24 @@ const AboutMe = () => {
                     </div>
                 </Col>
             </Row>
+            <br></br>
+            <h2>My Profesional Experience</h2>
+            <br></br>
+            <Row>
+                <Col xs={12} md={6}>
+                    <h3>INTENRSHIP FRONT-END WEB DEVELOPMENT</h3>
+                    <h4>Școala Informală de IT | May - Sep 2022</h4>
+                    <p>During this period I've learned front-end web development programing languages such as HTML, CSS, Javascript and React.JS, olso concepts as OOP, AJAX and Promises, ES6 and BOM.</p>
+                </Col>
+                <Col xs={12} md={6}>
+                <h3>SERVER</h3>
+                <h4>John's Island Club | Oct 2021 - May2022</h4>
+                <p>
+                Ensured optimal guest experience by seating guest, taking orders, serving dishes and removing dinnerware promptly and with a positive atittude. 
+                Knowledgeably recommended menu items based on customer needs and preferences, including upselling complementary dishes and drinks;
+                </p>
+                </Col>
+            </Row>
         </Container>
     )
 }
