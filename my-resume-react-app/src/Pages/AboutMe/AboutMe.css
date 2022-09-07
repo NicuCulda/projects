@@ -21,6 +21,7 @@
     width: 150px;
 }
 .about-left-wrapper {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +36,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.work-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }

@@ -34,16 +34,18 @@ return (
             </div>
             </Col>
         </Row>
-        <br></br>
-        <h3>Education</h3>
-        <br></br>
+        <Row>
+            <Col>
+                <h2 className='edu-title'>Education</h2>
+            </Col>
+        </Row>
         <Row>
             <Col xs={12} md={6}>
-                <h4>ȘCOALA INFORMALĂ DE IT  MAY - SEPTEMBER 2022</h4>
+                <h4>Școala Infromală de IT May - September 2022</h4>
                 <p>Front-End Development</p>
             </Col>
             <Col xs={12} md={6}>
-                <h4>BACHELOR IN MANAGEMENT 2010 - 2014</h4>
+                <h4>Bachelor In Management 2010 - 2014</h4>
                 <p>University UBB FSEGA, Cluj Napoca</p>
             </Col>
         </Row>

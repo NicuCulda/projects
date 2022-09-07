@@ -6,3 +6,9 @@
     justify-content: center;
     width: 80%;
 }
+.edu-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+}
