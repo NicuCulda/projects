@@ -39,7 +39,7 @@ const AboutMe = () => {
                     <h3>INTENRSHIP FRONT-END WEB DEVELOPMENT</h3>
                     <h4>Școala Informală de IT | May - Sep 2022</h4>
                     <p>During this period I've learned front-end web development programing languages such as HTML, CSS, Javascript and React.JS, olso concepts as OOP, AJAX and Promises, ES6 and BOM.</p>
-                </Col>
+                 </Col>
                 <Col xs={12} md={6}>
                 <h3>SERVER</h3>
                 <h4>John's Island Club | Oct 2021 - May2022</h4>
