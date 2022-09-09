@@ -1,45 +1,24 @@
 .top-row {
-    padding-top: 80px;
+    margin-top: 150px;
 }
-.about {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.about-left {
-    flex: 1;
-}
-
-.about-right {
-    flex: 1;
-}
-
 
 .img-about {
     height: 100px;
     width: 150px;
 }
-.about-left-wrapper {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-}
-.about-p {
-    font-size: small;
-    padding-top: 70px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .work-title {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-items: center;   
+}
+
+.about-title{
+    font-size: xxx-large;
+}
+.about-name {
+    font-size: xx-large;
+}
+.job-title {
+    font-size: xx-large;
 }
