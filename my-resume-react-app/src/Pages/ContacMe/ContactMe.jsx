@@ -15,13 +15,14 @@ import Button from 'react-bootstrap/Button'
 
 
 const ContactMe = () => {
-    const formRef = useRef(null)
     const [validated, setValidated] = useState(false);
-    
+    const formRef = useRef(null)
+   
     const handleReset = () => {
       formRef.current.reset();
       setValidated(false);
     };
+
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm(
@@ -36,32 +37,52 @@ const ContactMe = () => {
       } )
       setValidated(true);
       handleReset();
-      
     }
-  
 
     return (
-
-        <Form ref={formRef} onSubmit={handleSubmit}>
-            <Form.Group as={Col} controlId="formGridName">
-                <Form.Label>Name</Form.Label>
-                <Form.Control required name='name' type='user_name' placeholder='Name' />
-            </Form.Group>
-            <Form.Group as={Col} controlId="formGridEmail">
-                <Form.Label>Email</Form.Label>
-                <Form.Control required name='email' type='user_email' placeholder='Enter email' />
-            </Form.Group>
-            <Form.Group as={Col} controlId="formGridSubject">
-                <Form.Label>Subject</Form.Label>
-                <Form.Control required name='subject' type='user_subject' placeholder='Subject' />
-            </Form.Group>
-            <Form.Group as={Col} controlId="formGridMessage">
-                <Form.Label>Message</Form.Label>
-                <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
-            </Form.Group>
-
-            <Button onClick={handleSubmit} variant="primary" type="submit">Submit</Button>
-        </Form>
+        <Container className='contactMe'>
+            <Row>
+            <Col lg={6} className='myInfo'>               
+                    <div className="contactLeft">
+                        <h1 className='contactTitle'>Contact Me</h1>
+                        <div className="contactInfoItem">
+                            <img className='contactIcon' src={phone} alt="" /> +4 0753 046 160
+                        </div>
+                        <div className="contactInfoItem">
+                            <img className='contactIcon' src={envelope} alt="" /> culda_nicu@yahoo.com
+                        </div>
+                        <div className="contactInfoItem">
+                            <img className='contactIcon' src={map} alt="" /> Cluj Napoca, Romania
+                        </div>
+                        
+                    </div>
+                </Col>
+                <Col lg={6} className='contactForm'>
+                    <h1 className='contactTitle'>Contact Form</h1>
+                    <Form ref={formRef} onSubmit={handleSubmit}>
+                        <Form.Group  controlId="formGridName">
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control required name='name' type='user_name' placeholder='Name' />
+                        </Form.Group>
+                        <Form.Group  controlId="formGridEmail">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control required name='email' type='user_email' placeholder='Enter email' />
+                        </Form.Group>
+                        <Form.Group controlId="formGridSubject">
+                            <Form.Label>Subject</Form.Label>
+                            <Form.Control required name='subject' type='user_subject' placeholder='Subject' />
+                        </Form.Group>
+                        <Form.Group controlId="formGridMessage">
+                            <Form.Label>Message</Form.Label>
+                            <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
+                        </Form.Group>
+                        <Button onClick={handleSubmit} variant="primary" type="submit">Submit</Button>
+                    </Form>
+                </Col>
+               
+            </Row>
+        </Container>
+        
     )
 }
 

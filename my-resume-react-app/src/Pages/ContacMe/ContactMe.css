@@ -1,70 +1,37 @@
-.contact {
-    height: 100vh;
-}
-
-.contact-bg {
-    width: 20px;
-    height: 100vh;
-    background-color: aqua;
-    position: absolute;
-}
-
-.contact-wrapper {
-    padding: 50px;
-    display: flex;
-}
-
-
-
-.contact-right {
+.contactMe {
     
+    margin-top: 100px;
+}
+
+.myInfo {
+    padding: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+.contactTitle {
+    font-size: xxx-large;
+}
+.contactInfoItem {
+    font-size: x-large;
+}
+.contactForm {
+    align-items: center;
+    font-size: x-large;
 }
 
-.contact-title {
-    font-size: 60px;
-    width: 80%;
-}
-.contact-info-item {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0px;
-    font-weight: 300;
-    width: 70%;
-
-}
-.contact-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
+@media (max-width: 991px) {
+    .contactForm {
+        padding-top: 50px;
+    }    
+    .contactTitle {
+        font-size: xx-large;
+    }
+    .contactInfoItem {
+        font-size: large;
+    }
+    .contactForm {
+        font-size: large;
+    }
 }
 
-form {
-    margin-top: 20px;
-
-}
-input {
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
-    margin: 10px;
-    font-size: 14px;
-    padding-left: 10px;
-   
-}
-
-textarea {
-    width: 100%;
-    margin: 10px 20px;
-    font-size: 14px;
-    padding-left: 10px;
-}
-button {
-    background-color: green;
-    color: white;
-    
-}
