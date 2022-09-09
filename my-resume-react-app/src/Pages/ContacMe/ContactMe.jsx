@@ -40,25 +40,24 @@ const ContactMe = () => {
     }
 
     return (
-        <Container className='contactMe'>
+        <Container className='contact'>
             <Row>
-            <Col lg={6} className='myInfo'>               
-                    <div className="contactLeft">
-                        <h1 className='contactTitle'>Contact Me</h1>
-                        <div className="contactInfoItem">
-                            <img className='contactIcon' src={phone} alt="" /> +4 0753 046 160
-                        </div>
-                        <div className="contactInfoItem">
-                            <img className='contactIcon' src={envelope} alt="" /> culda_nicu@yahoo.com
-                        </div>
-                        <div className="contactInfoItem">
-                            <img className='contactIcon' src={map} alt="" /> Cluj Napoca, Romania
-                        </div>
-                        
+            <Col lg={6} className='my-info'>               
+                    <h1 className='contact-title'>Contact Me</h1>
+                    <div className="contact-info-item">
+                        <img className='contact-icon' src={phone} alt="" /> +4 0753 046 160
                     </div>
+                    <div className="contact-info-item">
+                        <img className='contact-icon' src={envelope} alt="" /> culda_nicu@yahoo.com
+                    </div>
+                    <div className="contact-info-item">
+                            <img className='contact-icon' src={map} alt="" /> Cluj Napoca, Romania
+                    </div>
+                        
+                    
                 </Col>
-                <Col lg={6} className='contactForm'>
-                    <h1 className='contactTitle'>Contact Form</h1>
+                <Col lg={6} className='contact-form'>
+                    <h1 className='contact-title'>Contact Form</h1>
                     <Form ref={formRef} onSubmit={handleSubmit}>
                         <Form.Group  controlId="formGridName">
                             <Form.Label>Name</Form.Label>

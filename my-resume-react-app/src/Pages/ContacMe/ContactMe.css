@@ -1,36 +1,36 @@
-.contactMe {
+.contact {
     
     margin-top: 100px;
 }
 
-.myInfo {
+.my-info {
     padding: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contactTitle {
+.contact-title {
     font-size: xxx-large;
 }
-.contactInfoItem {
+.contact-info-item {
     font-size: x-large;
 }
-.contactForm {
+.contact-form {
     align-items: center;
     font-size: x-large;
 }
 
 @media (max-width: 991px) {
-    .contactForm {
+    .contact-form {
         padding-top: 50px;
     }    
-    .contactTitle {
+    .contact-title {
         font-size: xx-large;
     }
-    .contactInfoItem {
+    .contact-info-item {
         font-size: large;
     }
-    .contactForm {
+    .contact-form {
         font-size: large;
     }
 }
