@@ -5,17 +5,37 @@ import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaGit, FaGithub} from "react-icon
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { Box } from '@mui/material'
+import CircularProgressWithLabel from '@mui/material/CircularProgress';
+import LinearProgress from '@mui/material/LinearProgress';
+
+
+
 
 
 const Skills = () => {
+    
+    const [progress, setProgress] = React.useState(0);
 
+    React.useEffect(() => {
+        const timer = setInterval(() => {
+          setProgress((prevProgress) => (prevProgress >= 100 ? 10 : prevProgress + 10));
+        }, 800);
+        return () => {
+          clearInterval(timer);
+        };
+      }, []);
+    
+      
+
+    
 return (
     <Container>
         <Row>
             <Col>
             <div className='skills'>
                 <div className='progress-bar-title'><FaHtml5 color='red'/>Html</div>
-                <ProgressBar now={90} label={`${90}%`} />
+                <ProgressBar now={progress} label={`${progress}%`} />
             
                 <div className='progress-bar-title'><FaCss3 color='blue'/>CSS</div>
                 <ProgressBar now={80} label={`${80}%`} />
@@ -34,6 +54,8 @@ return (
             </div>
             </Col>
         </Row>
+       
+        
         <Row>
             <Col>
                 <h2 className='edu-title'>Education</h2>
@@ -49,6 +71,10 @@ return (
                 <p>University UBB FSEGA, Cluj Napoca</p>
             </Col>
         </Row>
+
+     
+ 
+
     </Container>
     
 )  
