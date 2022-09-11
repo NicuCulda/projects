@@ -5,26 +5,32 @@ import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaGit, FaGithub} from "react-icon
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { Box } from '@mui/material'
-import CircularProgressWithLabel from '@mui/material/CircularProgress';
-import LinearProgress from '@mui/material/LinearProgress';
 
 
 
 
 
 const Skills = () => {
+    let progressInterval = null;
+    const SkillBar = ()  => {
+        const [progress, setProgress] = useState(0);
+ 
+        useEffect(() => {
+          progressInterval = setInterval(() => {
+            setProgress(prev => prev + 1);
+          }, 100);
+        }, []);
+       
+        useEffect(() => {
+          if (progress >= 100) {
+            clearInterval(progressInterval);
+          }
+        }, [progress]);
     
-    const [progress, setProgress] = React.useState(0);
-
-    React.useEffect(() => {
-        const timer = setInterval(() => {
-          setProgress((prevProgress) => (prevProgress >= 100 ? 10 : prevProgress + 10));
-        }, 800);
-        return () => {
-          clearInterval(timer);
-        };
-      }, []);
+      return (
+        <ProgressBar  now={progress} label={`${progress}%`} />
+      )
+    }
     
       
 
@@ -35,10 +41,10 @@ return (
             <Col>
             <div className='skills'>
                 <div className='progress-bar-title'><FaHtml5 color='red'/>Html</div>
-                <ProgressBar now={progress} label={`${progress}%`} />
+                <SkillBar />
             
                 <div className='progress-bar-title'><FaCss3 color='blue'/>CSS</div>
-                <ProgressBar now={80} label={`${80}%`} />
+                <ProgressBar now={80} label={`${80}%`}/>
 
                 <div className='progress-bar-title'><FaJsSquare color='yellow'/>JavaScript</div>
                 <ProgressBar now={60} label={`${60}%`} />

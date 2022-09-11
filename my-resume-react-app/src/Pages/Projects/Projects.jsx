@@ -5,7 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import projects from '../../Images/projects.png'
-
+import WheatherAPI from  '../../Images/WheatherAPI.png'
+import ShoppingApp from '../../Images/ShoppingApp.png'
+import RPS from '../../Images/RPS.jpg'
+import ResponsiveDesign from '../../Images/ResponsiveDesign.png'
 const Projects = () => {
 
 
@@ -14,7 +17,7 @@ const Projects = () => {
             <Row xs={1} md={2} className="g-4" id='card-top'>
                 <Col>
                 <Card>
-                    <Card.Img variant="top" src={projects} />
+                    <Card.Img variant="top" src={ShoppingApp} />
                     <Card.Body>
                     <Card.Title>My Shopping App</Card.Title>
                     <Card.Text>
@@ -30,7 +33,7 @@ const Projects = () => {
                 </Col>
                 <Col>
                 <Card>
-                    <Card.Img variant="top" src={projects} />
+                    <Card.Img variant="top" src={WheatherAPI} />
                     <Card.Body>
                     <Card.Title>My wheather App with API</Card.Title>
                     <Card.Text>
@@ -48,7 +51,7 @@ const Projects = () => {
             <Row xs={1} md={2} className="g-4">
                 <Col>
                 <Card>
-                    <Card.Img variant="top" src={projects} />
+                    <Card.Img variant="top" src={ResponsiveDesign} />
                     <Card.Body>
                     <Card.Title>Responsive Design</Card.Title>
                     <Card.Text>
@@ -64,7 +67,7 @@ const Projects = () => {
                 </Col>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={projects} />
+                        <Card.Img variant="top" src={RPS} />
                         <Card.Body>
                         <Card.Title>Rock,Scisors and Paper</Card.Title>
                         <Card.Text>
