@@ -13,7 +13,7 @@ const AboutMe = () => {
              <Container>
             <Row>
                 <Col className='name' xs={12} md={6}>
-                    <h1 className='about-title'>Hello, My Name Is</h1>                         
+                    <div className='about-title'>Hello, My Name Is</div>                         
                     <h2 className='about-name'>Nicolae Culda</h2>
                     <Image src={myPic} fluid></Image> 
                 </Col>

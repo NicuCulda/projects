@@ -36,28 +36,28 @@ const Skills = () => {
 
     
 return (
+  <div className='skills'>
     <Container>
         <Row>
             <Col>
-            <div className='skills'>
                 <div className='progress-bar-title'><FaHtml5 color='red'/>Html</div>
-                <SkillBar />
+                <ProgressBar variant="html" animated now={85} label={`${85}%`}/>
             
                 <div className='progress-bar-title'><FaCss3 color='blue'/>CSS</div>
-                <ProgressBar now={80} label={`${80}%`}/>
+                <ProgressBar variant="css" animated now={80} label={`${80}%`}/>
 
                 <div className='progress-bar-title'><FaJsSquare color='yellow'/>JavaScript</div>
-                <ProgressBar now={60} label={`${60}%`} />
+                <ProgressBar variant="java" animated now={60} label={`${60}%`} />
         
                 <div className='progress-bar-title'><FaReact color='blue'/>React.Js</div>
-                <ProgressBar now={60} label={`${60}%`} />
+                <ProgressBar variant="react" animated now={60} label={`${60}%`} />
         
                 <div className='progress-bar-title'><FaGit color='red'/>Git</div>
-                <ProgressBar now={80} label={`${80}%`} />
+                <ProgressBar variant="git" animated now={80} label={`${80}%`} />
         
                 <div className='progress-bar-title'><FaGithub color='black'/>GitHub</div>
-                <ProgressBar now={80} label={`${80}%`} />
-            </div>
+                <ProgressBar variant="git-hub" animated now={80} label={`${80}%`} />
+            
             </Col>
         </Row>
        
@@ -77,12 +77,8 @@ return (
                 <p>University UBB FSEGA, Cluj Napoca</p>
             </Col>
         </Row>
-
-     
- 
-
     </Container>
-    
+  </div>
 )  
 }
 

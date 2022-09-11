@@ -5,14 +5,14 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import HomePage from './Pages/HomePage/HomePage';
 import AboutMe from './Pages/AboutMe/aboutMe';
 import ContactMe from './Pages/ContacMe/contactMe';
-import Education from './Pages/Education/Education';
 import Skills from './Pages/Skills/Skills'
 import Projects from './Pages/Projects/Projects';
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
   
-
   return (
     <div className="App">
       <BrowserRouter>

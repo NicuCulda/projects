@@ -1,17 +1,30 @@
 .skills {
-    padding-top: 70px;
-    padding-left: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
+    margin-top: 55px;
+    background-color: #66fcf1;
+    height: 100vh;
 }
 .edu-title {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        margin: 40px;
 }
-.ProgressBar {
-    width: 80%;
+.bg-html {
+    background-color: red!important;
+}
+.bg-css {
+    background-color: blue!important;
+}
+.bg-java {
+    background-color: yellow!important;
+    color: black!important;
+}
+.bg-react {
+    background-color: blue!important;
+}
+.bg-git {
+    background-color: red!important;
+}
+.bg-html {
+    background-color: black!important;
 }
