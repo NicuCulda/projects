@@ -1,7 +1,6 @@
 import './ContactMe.css'
 import React from 'react'
 import {useState, useEffect} from "react"
-import contactimg from '../../Images/contact.jpg'
 import phone from '../../Images/telephone-fill.svg'
 import envelope from '../../Images/envelope-fill.svg'
 import map from '../../Images/geo-alt-fill.svg'
@@ -40,7 +39,8 @@ const ContactMe = () => {
     }
 
     return (
-        <Container className='contact'>
+        <div className='contact'>
+            <Container >
             <Row>
             <Col lg={6} className='my-info'>               
                     <h1 className='contact-title'>Contact Me</h1>
@@ -53,35 +53,32 @@ const ContactMe = () => {
                     <div className="contact-info-item">
                             <img className='contact-icon' src={map} alt="" /> Cluj Napoca, Romania
                     </div>
-                        
-                    
-                </Col>
-                <Col lg={6} className='contact-form'>
-                    <h1 className='contact-title'>Contact Form</h1>
-                    <Form ref={formRef} onSubmit={handleSubmit}>
-                        <Form.Group  controlId="formGridName">
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control required name='name' type='user_name' placeholder='Name' />
-                        </Form.Group>
-                        <Form.Group  controlId="formGridEmail">
-                            <Form.Label>Email</Form.Label>
-                            <Form.Control required name='email' type='user_email' placeholder='Enter email' />
-                        </Form.Group>
-                        <Form.Group controlId="formGridSubject">
-                            <Form.Label>Subject</Form.Label>
-                            <Form.Control required name='subject' type='user_subject' placeholder='Subject' />
-                        </Form.Group>
-                        <Form.Group controlId="formGridMessage">
-                            <Form.Label>Message</Form.Label>
-                            <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
-                        </Form.Group>
-                        <Button onClick={handleSubmit} variant="primary" type="submit">Submit</Button>
-                    </Form>
-                </Col>
-               
+            </Col>
+            <Col lg={6} className='contact-form'>
+                <h1 className='contact-title'>Contact Form</h1>
+                <Form ref={formRef} onSubmit={handleSubmit}>
+                    <Form.Group  controlId="formGridName">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control required name='name' type='user_name' placeholder='Name' />
+                    </Form.Group>
+                    <Form.Group  controlId="formGridEmail">
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control required name='email' type='user_email' placeholder='Enter email' />
+                    </Form.Group>
+                    <Form.Group controlId="formGridSubject">
+                        <Form.Label>Subject</Form.Label>
+                        <Form.Control required name='subject' type='user_subject' placeholder='Subject' />
+                    </Form.Group>
+                    <Form.Group controlId="formGridMessage">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
+                    </Form.Group>
+                    <Button onClick={handleSubmit} variant="secondary" type="submit" style={{backgroundColor: "#c5c6c7" }}>Submit</Button>
+                </Form>
+            </Col>   
             </Row>
         </Container>
-        
+        </div>
     )
 }
 

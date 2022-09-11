@@ -1,24 +1,60 @@
-.top-row {
-    margin-top: 150px;
+ .about{
+    margin-top: 50px;
+    background-color: #66fcf1;
 }
 
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
 .img-about {
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
 }
 
 .work-title {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;   
-}
-
-.about-title{
+    align-items: center; 
     font-size: xxx-large;
 }
-.about-name {
+.experience {
+    padding-top: 50px;
+}
+.about-title{
+    padding: 30px;
     font-size: xx-large;
+}
+.about-name {
+    font-size: xxx-large;
 }
 .job-title {
     font-size: xx-large;
+}
+.place {
+    font-size: x-large;
+}
+
+
+@media (max-width: 991px) {
+    .about-name {
+        margin-bottom: 20px;
+    }
+    .about-me {
+        margin-top: 20px;
+    }
+    .work-title {
+        margin-top: 40px;
+        font-size: xx-large;
+    }
+    .job-title {
+        font-size: x-large;
+    }
+    .place {
+        font-size: large;
+    }
+        
 }

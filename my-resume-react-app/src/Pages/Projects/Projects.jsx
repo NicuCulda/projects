@@ -4,17 +4,18 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import projects from '../../Images/projects.png'
 import WheatherAPI from  '../../Images/WheatherAPI.png'
 import ShoppingApp from '../../Images/ShoppingApp.png'
 import RPS from '../../Images/RPS.jpg'
 import ResponsiveDesign from '../../Images/ResponsiveDesign.png'
+
+
 const Projects = () => {
 
-
     return (
+        <div className='projects'>
         <Container>
-            <Row xs={1} md={2} className="g-4" id='card-top'>
+            <Row xs={1} md={2} className="g-4">
                 <Col>
                 <Card>
                     <Card.Img variant="top" src={ShoppingApp} />
@@ -24,8 +25,13 @@ const Projects = () => {
                     App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
                     </Card.Text>
-                    <a href="https://github.com/NicuCulda/Homeworks/tree/main/my-shopping-website-with-react">
-                        <Button variant="primary">Go to GitHub</Button>
+                    <a href="https://github.com/NicuCulda/Homeworks/tree/main/my-shopping-website-with-react" target="_blank">
+                        <Button 
+                            variant="secondary" 
+                            onClick={() => onClickOpenVavancy(id)}
+                            style={{backgroundColor: "#c5c6c7" }}>
+                                Go to GitHub
+                        </Button>
                     </a>
                     
                     </Card.Body>
@@ -40,10 +46,14 @@ const Projects = () => {
                     App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
                     </Card.Text>
-                    <a href="https://github.com/NicuCulda/Homeworks/tree/main/Weather%20app%20-%20API">
-                        <Button variant="primary">Go to GitHub</Button>
+                    <a href="https://github.com/NicuCulda/Homeworks/tree/main/Weather%20app%20-%20API" target="_blank">
+                        <Button 
+                            variant="secondary" 
+                            onClick={() => onClickOpenVavancy(id)}
+                            style={{backgroundColor: "#c5c6c7" }}>
+                            Go to GitHub
+                        </Button>
                     </a>
-                    
                     </Card.Body>
                 </Card>
                 </Col>
@@ -58,8 +68,12 @@ const Projects = () => {
                         App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
                     </Card.Text>
-                    <a href="https://github.com/NicuCulda/Responsive_Design">
-                        <Button variant="primary">Go to GitHub</Button>
+                    <a href="https://github.com/NicuCulda/Responsive_Design" target="_blank">
+                        <Button 
+                            variant="secondary" 
+                            style={{backgroundColor: "#c5c6c7" }}>
+                            Go to GitHub
+                        </Button>
                     </a>
                     
                     </Card.Body>
@@ -74,16 +88,25 @@ const Projects = () => {
                         App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
                         </Card.Text>
-                        <a href="https://github.com/NicuCulda/Homeworks/tree/main/Rock%2C%20Paper%20%26%20Scissors%20Dome%20Manipulation">
-                            <Button variant="primary">Go to GitHub</Button>
+                        <a href="https://github.com/NicuCulda/Homeworks/tree/main/Rock%2C%20Paper%20%26%20Scissors%20Dome%20Manipulation" target="_blank">
+                            <Button 
+                                variant="secondary" 
+                                onClick={() => onClickOpenVavancy(id)}
+                                style={{backgroundColor: "#c5c6c7" }}>
+                                    Go to GitHub
+                            </Button>
                         </a>               
                         </Card.Body>
                     </Card>
                     </Col>
             </Row>
         </Container>
+    </div>
     )
 }
+
+        
+        
 
 
 export default Projects
