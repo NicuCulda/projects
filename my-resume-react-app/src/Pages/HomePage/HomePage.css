@@ -6,7 +6,6 @@
     height: 100vh;
     width: 100%
 }
-
 .main-info {
     display: flex;
     flex-direction: column;
@@ -19,7 +18,6 @@
     right: 0;
     bottom: 0;
 }
-
 .main-info h1 {
     color: white;
     font-size: xxx-large;

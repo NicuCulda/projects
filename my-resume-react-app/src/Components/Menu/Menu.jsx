@@ -3,8 +3,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Outlet, Link} from "react-router-dom"
-import { Fragment } from 'react';
+import {Link} from "react-router-dom"
+
 
 
 function Menu() {

@@ -1,8 +1,7 @@
 .contact {
     background-color: #3aafa9;
     margin-top: 50px;
-    padding-bottom: 50px;
-   
+    padding-bottom: 50px;   
 }
 
 .buttons {
@@ -10,7 +9,6 @@
     flex-direction: row;
     margin-top: 20px;
 }
-
 .btn-contact {
     padding: 5px;
 }
@@ -31,7 +29,6 @@
     align-items: center;
     font-size: x-large;
 }
-
 @media (max-width: 991px) {
     .contact-form {
         padding-top: 50px;

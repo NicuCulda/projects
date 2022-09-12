@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <Col className='name' xs={12} md={6}>
                     <div className='about-title'>Hello, My Name Is</div>                         
                     <h2 className='about-name'>Nicolae Culda</h2>
-                    <Image src={myPic} fluid></Image> 
+                    <Image src={myPic} rounded={true} fluid></Image> 
                 </Col>
                 <Col xs={12} md={6}>
                         <div className='about-me'>

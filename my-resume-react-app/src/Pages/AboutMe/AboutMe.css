@@ -12,12 +12,9 @@
 }
 
 .about-me {
-    padding-top: 40px;
+    padding-top: 80px;
 }
-.img-about {
-    height: 200px;
-    width: 300px;
-}
+
 
 .work-title {
     margin-top: 60px;
@@ -53,6 +50,7 @@
     }
     .about-me {
         margin-top: 20px;
+        padding-top: 0;
     }
     .work-title {
         margin-top: 40px;

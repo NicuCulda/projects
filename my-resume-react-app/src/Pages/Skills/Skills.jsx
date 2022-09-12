@@ -7,33 +7,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
-
-
-
 const Skills = () => {
-    let progressInterval = null;
-    const SkillBar = ()  => {
-        const [progress, setProgress] = useState(0);
- 
-        useEffect(() => {
-          progressInterval = setInterval(() => {
-            setProgress(prev => prev + 1);
-          }, 100);
-        }, []);
-       
-        useEffect(() => {
-          if (progress >= 100) {
-            clearInterval(progressInterval);
-          }
-        }, [progress]);
-    
-      return (
-        <ProgressBar  now={progress} label={`${progress}%`} />
-      )
-    }
-    
-      
-
     
 return (
   <div className='skills'>
