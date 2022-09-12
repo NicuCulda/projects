@@ -22,12 +22,10 @@
     color: white;
     font-size: xxx-large;
 }
-
 .typed-text {
     font-size: xx-large;
     color: white;
 }
-
 @media(max-width: 768px) {
     .main-info {
         font-size: xx-large !important;

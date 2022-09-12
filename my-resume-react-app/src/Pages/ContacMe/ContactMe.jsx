@@ -1,6 +1,6 @@
 import './ContactMe.css'
 import React from 'react'
-import {useState, useEffect} from "react"
+import {useState} from "react"
 import phone from '../../Images/telephone-fill.svg'
 import envelope from '../../Images/envelope-fill.svg'
 import map from '../../Images/geo-alt-fill.svg'
