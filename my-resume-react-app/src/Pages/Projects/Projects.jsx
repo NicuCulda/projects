@@ -41,7 +41,8 @@ const Projects = () => {
                     <Card.Body>
                     <Card.Title>My wheather App with API</Card.Title>
                     <Card.Text>
-                    Project using API for creating an wheather app.
+                    Project using API for creating an wheather app. 
+
                     </Card.Text>
                     <a href="https://github.com/NicuCulda/Homeworks/tree/main/Weather%20app%20-%20API" target="_blank">
                         <Button 
@@ -70,7 +71,6 @@ const Projects = () => {
                             Go to GitHub
                         </Button>
                     </a>
-                    
                     </Card.Body>
                 </Card>
                 </Col>
