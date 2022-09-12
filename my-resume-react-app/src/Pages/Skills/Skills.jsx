@@ -5,7 +5,7 @@ import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaGit, FaGithub} from "react-icon
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Button from 'react-bootstrap/Button'
 
 
 
@@ -40,22 +40,47 @@ return (
     <Container>
         <Row>
             <Col>
-                <div className='progress-bar-title'><FaHtml5 color='red'/>Html</div>
-                <ProgressBar variant="html" animated now={85} label={`${85}%`}/>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                        <FaHtml5 color='red'/> Html
+                        </Button>
+                </a>
+                <ProgressBar variant="html-bar" animated now={85} label={`${85}%`}/>
             
-                <div className='progress-bar-title'><FaCss3 color='blue'/>CSS</div>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                        <FaCss3 color='blue'/> CSS
+                        </Button>
+                </a>
                 <ProgressBar variant="css" animated now={80} label={`${80}%`}/>
 
-                <div className='progress-bar-title'><FaJsSquare color='yellow'/>JavaScript</div>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                        <FaJsSquare color='yellow'/> JavaScript
+                        </Button>
+                </a>
                 <ProgressBar variant="java" animated now={60} label={`${60}%`} />
-        
-                <div className='progress-bar-title'><FaReact color='blue'/>React.Js</div>
+
+                <a href="https://reactjs.org/" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                        <FaReact color='blue'/> React.Js
+                        </Button>
+                </a>
                 <ProgressBar variant="react" animated now={60} label={`${60}%`} />
-        
-                <div className='progress-bar-title'><FaGit color='red'/>Git</div>
+
+                <a href="https://git-scm.com/" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                        <FaGit color='red'/> Git
+                        </Button>
+                </a>
+
                 <ProgressBar variant="git" animated now={80} label={`${80}%`} />
-        
-                <div className='progress-bar-title'><FaGithub color='black'/>GitHub</div>
+
+                <a href="https://github.com/" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                            <FaGithub color='black' /> GitHub
+                        </Button>
+                </a>
                 <ProgressBar variant="git-hub" animated now={80} label={`${80}%`} />
             
             </Col>

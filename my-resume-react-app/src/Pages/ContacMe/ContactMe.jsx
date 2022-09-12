@@ -55,12 +55,12 @@ const ContactMe = () => {
                             <img className='contact-icon' src={map} alt="" /> Cluj Napoca, Romania
                     </div>
                     <div className='buttons'>
-                        <a href="https://github.com/NicuCulda/" target="_blank" className='btn'>
+                        <a href="https://github.com/NicuCulda/" target="_blank" className='btn-contact'>
                         <Button variant="secondary" style={{backgroundColor: "#def2f1" }}> 
                             <FaGithub color='black' />
                         </Button>
                         </a>
-                        <a href="https://www.linkedin.com/in/nicolaeculda/" target="_blank" className='btn'>
+                        <a href="https://www.linkedin.com/in/nicolaeculda/" target="_blank" className='btn-contact'>
                             <Button variant="secondary" style={{backgroundColor: "#def2f1" }}> 
                                 <FaLinkedin color='blue' />
                             </Button>

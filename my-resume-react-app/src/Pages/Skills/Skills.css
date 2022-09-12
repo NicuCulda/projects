@@ -1,8 +1,9 @@
 .skills {
     margin-top: 55px;
     background-color: #3aafa9;;
-    height: 100vh;
+    padding-bottom: 50px;
 }
+
 .edu-title {
         display: flex;
         justify-content: center;
@@ -10,14 +11,14 @@
         margin: 40px;
         color: #Feffff;
 }
-.bg-html {
-    background-color: red!important;
+.bg-html-bar {
+    background-color: rgb(255, 0, 0)!important;
 }
 .bg-css {
     background-color: blue!important;
 }
 .bg-java {
-    background-color: yellow!important;
+    background-color: rgba(119, 255, 0, 0.745)!important;
     color: black!important;
 }
 .bg-react {
@@ -26,6 +27,14 @@
 .bg-git {
     background-color: red!important;
 }
-.bg-html {
+.bg-git-hub {
     background-color: black!important;
+}
+
+.btn {
+    width: 130px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px black;
 }

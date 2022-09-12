@@ -1,7 +1,8 @@
 .contact {
     background-color: #3aafa9;
     margin-top: 50px;
-    background-size:cover;
+    padding-bottom: 50px;
+   
 }
 
 .buttons {
@@ -10,7 +11,7 @@
     margin-top: 20px;
 }
 
-.btn {
+.btn-contact {
     padding: 5px;
 }
 .my-info {

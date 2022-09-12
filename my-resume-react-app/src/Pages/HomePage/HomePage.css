@@ -22,18 +22,19 @@
 
 .main-info h1 {
     color: white;
+    font-size: xxx-large;
 }
 
 .typed-text {
-    font-size: 2rem;
+    font-size: xx-large;
     color: white;
 }
 
 @media(max-width: 768px) {
     .main-info {
-        font-size: 2.2rem !important;
+        font-size: xx-large !important;
     }
     .typed-text {
-        font-size: 1.3rem !important;
+        font-size: x-large !important;
     }
 }
