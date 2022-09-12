@@ -2,6 +2,7 @@
     margin-top: 55px;
     background-color: #3aafa9;;
     padding-bottom: 50px;
+    height: 110vh;
 }
 .edu-title {
         display: flex;
@@ -29,8 +30,11 @@
 .bg-git-hub {
     background-color: black!important;
 }
-
 button:focus {
     box-shadow:none !important;
 }
-
+@media (min-width: 600px) {
+    .skills {
+        height: 100vh;
+    }
+}

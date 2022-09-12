@@ -2,6 +2,7 @@
     margin-top: 50px;
     background-color: #3aafa9;
     padding-bottom: 50px;
+    height: 100%;
 }
 
 .name {
@@ -62,5 +63,9 @@
     .place {
         font-size: large;
     }
-        
+}
+@media (min-width: 600px) {
+    .about {
+        height: 100vh;
+    }
 }
