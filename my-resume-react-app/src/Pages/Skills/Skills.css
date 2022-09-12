@@ -30,6 +30,4 @@
     background-color: black!important;
 }
 
-.btn {
-    width: 130px;
-}
+button:focus {box-shadow:none !important;}

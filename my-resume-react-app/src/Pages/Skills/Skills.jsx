@@ -13,44 +13,44 @@ return (
     <Container>
         <Row>
             <Col>
-                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78", width: '130px', margin: '5px 0px' }}> 
                         <FaHtml5 color='red'/> Html
                         </Button>
                 </a>
                 <ProgressBar variant="html-bar" animated now={85} label={`${85}%`}/>
             
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78", width: '130px', margin: '7px 0px' }}> 
                         <FaCss3 color='blue'/> CSS
                         </Button>
                 </a>
                 <ProgressBar variant="css" animated now={80} label={`${80}%`}/>
 
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78", width: '130px', margin: '7px 0px'}}> 
                         <FaJsSquare color='yellow'/> JavaScript
                         </Button>
                 </a>
                 <ProgressBar variant="java" animated now={60} label={`${60}%`} />
 
-                <a href="https://reactjs.org/" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://reactjs.org/" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78", width: '130px', margin: '7px 0px'}}> 
                         <FaReact color='blue'/> React.Js
                         </Button>
                 </a>
                 <ProgressBar variant="react" animated now={60} label={`${60}%`} />
 
-                <a href="https://git-scm.com/" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://git-scm.com/" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78", width: '130px', margin: '7px 0px'}}> 
                         <FaGit color='red'/> Git
                         </Button>
                 </a>
 
                 <ProgressBar variant="git" animated now={80} label={`${80}%`} />
 
-                <a href="https://github.com/" target="_blank" className='btn'>
-                        <Button variant="secondary" style={{backgroundColor: "2b7a78" }}> 
+                <a href="https://github.com/" target="_blank" className='btn-links'>
+                        <Button variant="secondary" style={{backgroundColor: "2b7a78",  width: '130px', margin: '7px 0px'}}> 
                             <FaGithub color='black' /> GitHub
                         </Button>
                 </a>

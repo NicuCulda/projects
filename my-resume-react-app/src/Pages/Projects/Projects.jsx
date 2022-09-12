@@ -61,7 +61,7 @@ const Projects = () => {
                     <Card.Body>
                     <Card.Title>Responsive Design</Card.Title>
                     <Card.Text>
-                        Creating an responsive design using Flex Box.
+                    Creating an responsive design using Flex Box.
                     </Card.Text>
                     <a href="https://github.com/NicuCulda/Responsive_Design" target="_blank">
                         <Button 
