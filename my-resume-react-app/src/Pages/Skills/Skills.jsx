@@ -1,5 +1,4 @@
 import './Skills.css'
-import React, { useEffect, useState  } from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaGit, FaGithub} from "react-icons/fa"
 import Container from 'react-bootstrap/Container'

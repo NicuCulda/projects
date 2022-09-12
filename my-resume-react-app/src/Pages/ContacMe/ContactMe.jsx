@@ -46,15 +46,17 @@ const ContactMe = () => {
             <Col lg={6} className='my-info'>               
                     <h1 className='contact-title'>Contact Me</h1>
                     <div className="contact-info-item">
-                        <img className='contact-icon' src={phone} alt="" /> +4 0753 046 160
+                        <a href="tel:+4 0753 046 160">
+                            <img className='contact-icon' src={phone} alt="" /> +4 0753 046 160</a>
                     </div>
                     <div className="contact-info-item">
-                        <img className='contact-icon' src={envelope} alt="" /> culda_nicu@yahoo.com
+                        <a href='mailto:culda_nicu@yahoo.com'>
+                        <img className='contact-icon' src={envelope} alt="" /> culda_nicu@yahoo.com</a>
                     </div>
                     <div className="contact-info-item">
                             <img className='contact-icon' src={map} alt="" /> Cluj Napoca, Romania
                     </div>
-                    <div className='buttons'>
+                    <div className='buttons-link'>
                         <a href="https://github.com/NicuCulda/" target="_blank" className='btn-contact'>
                         <Button variant="secondary" style={{backgroundColor: "#def2f1" }}> 
                             <FaGithub color='black' />
@@ -88,7 +90,12 @@ const ContactMe = () => {
                         <Form.Label>Message</Form.Label>
                         <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
                     </Form.Group>
-                    <Button onClick={handleSubmit} variant="secondary" type="submit" style={{backgroundColor: "#def2f1", color: 'black' }}>Submit</Button>
+                    <Button 
+                        onClick={handleSubmit} 
+                        variant="secondary" type="submit" 
+                        style={{backgroundColor: "#def2f1", color: 'black', margin: '8px 0px'}}>
+                            Submit
+                    </Button>
                 </Form>
             </Col>   
             </Row>

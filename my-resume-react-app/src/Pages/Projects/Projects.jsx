@@ -27,7 +27,6 @@ const Projects = () => {
                     <a href="https://github.com/NicuCulda/Homeworks/tree/main/my-shopping-website-with-react" target="_blank">
                         <Button 
                             variant="secondary" 
-                            onClick={() => onClickOpenVavancy(id)}
                             style={{backgroundColor: "#def2f1" , color: 'black'}}>
                                 Go to GitHub
                         </Button>
@@ -47,7 +46,6 @@ const Projects = () => {
                     <a href="https://github.com/NicuCulda/Homeworks/tree/main/Weather%20app%20-%20API" target="_blank">
                         <Button 
                             variant="secondary" 
-                            onClick={() => onClickOpenVavancy(id)}
                             style={{backgroundColor: "#def2f1", color: 'black'}}>
                             Go to GitHub
                         </Button>
