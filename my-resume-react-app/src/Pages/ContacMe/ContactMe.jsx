@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import { FaLinkedin,  FaGithub} from "react-icons/fa"
 
 
 const ContactMe = () => {
@@ -53,6 +54,20 @@ const ContactMe = () => {
                     <div className="contact-info-item">
                             <img className='contact-icon' src={map} alt="" /> Cluj Napoca, Romania
                     </div>
+                    <div className='buttons'>
+                        <a href="https://github.com/NicuCulda/" target="_blank" className='btn'>
+                        <Button variant="secondary" style={{backgroundColor: "#def2f1" }}> 
+                            <FaGithub color='black' />
+                        </Button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nicolaeculda/" target="_blank" className='btn'>
+                            <Button variant="secondary" style={{backgroundColor: "#def2f1" }}> 
+                                <FaLinkedin color='blue' />
+                            </Button>
+                        </a>
+                    </div>
+                    
+                    
             </Col>
             <Col lg={6} className='contact-form'>
                 <h1 className='contact-title'>Contact Form</h1>
@@ -73,7 +88,7 @@ const ContactMe = () => {
                         <Form.Label>Message</Form.Label>
                         <Form.Control required name='message' as="textarea" type='Message' placeholder='Message' rows={5}/>
                     </Form.Group>
-                    <Button onClick={handleSubmit} variant="secondary" type="submit" style={{backgroundColor: "#c5c6c7" }}>Submit</Button>
+                    <Button onClick={handleSubmit} variant="secondary" type="submit" style={{backgroundColor: "#def2f1", color: 'black' }}>Submit</Button>
                 </Form>
             </Col>   
             </Row>
@@ -81,6 +96,7 @@ const ContactMe = () => {
         </div>
     )
 }
+
 
 
 export default ContactMe

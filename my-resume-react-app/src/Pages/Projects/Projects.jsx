@@ -22,14 +22,13 @@ const Projects = () => {
                     <Card.Body>
                     <Card.Title>My Shopping App</Card.Title>
                     <Card.Text>
-                    App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
+                    An simple user interface using React.Js
                     </Card.Text>
                     <a href="https://github.com/NicuCulda/Homeworks/tree/main/my-shopping-website-with-react" target="_blank">
                         <Button 
                             variant="secondary" 
                             onClick={() => onClickOpenVavancy(id)}
-                            style={{backgroundColor: "#c5c6c7" }}>
+                            style={{backgroundColor: "#def2f1" , color: 'black'}}>
                                 Go to GitHub
                         </Button>
                     </a>
@@ -43,14 +42,13 @@ const Projects = () => {
                     <Card.Body>
                     <Card.Title>My wheather App with API</Card.Title>
                     <Card.Text>
-                    App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
+                    Simple project using API for creating an whather app.
                     </Card.Text>
                     <a href="https://github.com/NicuCulda/Homeworks/tree/main/Weather%20app%20-%20API" target="_blank">
                         <Button 
                             variant="secondary" 
                             onClick={() => onClickOpenVavancy(id)}
-                            style={{backgroundColor: "#c5c6c7" }}>
+                            style={{backgroundColor: "#def2f1", color: 'black'}}>
                             Go to GitHub
                         </Button>
                     </a>
@@ -65,13 +63,12 @@ const Projects = () => {
                     <Card.Body>
                     <Card.Title>Responsive Design</Card.Title>
                     <Card.Text>
-                        App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
+                        Creating an responsive design using Flex Box.
                     </Card.Text>
                     <a href="https://github.com/NicuCulda/Responsive_Design" target="_blank">
                         <Button 
                             variant="secondary" 
-                            style={{backgroundColor: "#c5c6c7" }}>
+                            style={{backgroundColor: "#def2f1", color: 'black' }}>
                             Go to GitHub
                         </Button>
                     </a>
@@ -85,14 +82,13 @@ const Projects = () => {
                         <Card.Body>
                         <Card.Title>Rock,Scisors and Paper</Card.Title>
                         <Card.Text>
-                        App Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Rem iusto reprehenderit iste veniam laborum recusandae ipsum asperiores quasi!
+                        An replica for the game using DOM manipulation.
                         </Card.Text>
                         <a href="https://github.com/NicuCulda/Homeworks/tree/main/Rock%2C%20Paper%20%26%20Scissors%20Dome%20Manipulation" target="_blank">
                             <Button 
                                 variant="secondary" 
                                 onClick={() => onClickOpenVavancy(id)}
-                                style={{backgroundColor: "#c5c6c7" }}>
+                                style={{backgroundColor: "#def2f1", color: 'black' }}>
                                     Go to GitHub
                             </Button>
                         </a>               

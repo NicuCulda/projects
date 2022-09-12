@@ -1,6 +1,6 @@
 .skills {
     margin-top: 55px;
-    background-color: #66fcf1;
+    background-color: #3aafa9;;
     height: 100vh;
 }
 .edu-title {
@@ -8,6 +8,7 @@
         justify-content: center;
         align-items: center;
         margin: 40px;
+        color: #Feffff;
 }
 .bg-html {
     background-color: red!important;

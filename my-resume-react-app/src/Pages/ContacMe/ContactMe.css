@@ -1,9 +1,18 @@
 .contact {
-    background-color: #66fcf1;
+    background-color: #3aafa9;
     margin-top: 50px;
-    height: 100vh;
+    background-size:cover;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 5px;
+}
 .my-info {
     padding: 120px;
     display: flex;
@@ -12,6 +21,7 @@
 }
 .contact-title {
     font-size: xxx-large;
+    color: #Feffff;
 }
 .contact-info-item {
     font-size: x-large;

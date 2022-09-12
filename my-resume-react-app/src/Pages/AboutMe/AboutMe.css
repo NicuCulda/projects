@@ -1,6 +1,6 @@
  .about{
     margin-top: 50px;
-    background-color: #66fcf1;
+    background-color: #3aafa9;
 }
 
 .name {
@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center; 
     font-size: xxx-large;
+    color: #Feffff;
 }
 .experience {
     padding-top: 50px;
@@ -34,9 +35,11 @@
 }
 .about-name {
     font-size: xxx-large;
+    color: #Feffff;
 }
 .job-title {
     font-size: xx-large;
+    color: #Feffff;
 }
 .place {
     font-size: x-large;

@@ -11,7 +11,7 @@ function Menu() {
   
   return (
     <div>
-        <Navbar  expand="lg" bg="dark" variant="dark" fixed='top' collapseOnSelect >
+        <Navbar  expand="lg" bg="custom" variant="dark" fixed='top' collapseOnSelect >
         <Container>
             <Navbar.Brand as={Link} to="/">Nicolae Culda</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
